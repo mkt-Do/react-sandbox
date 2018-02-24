@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "hot": "webpack --watch",
     "build": "webpack --config webpack.config.js",
     "start": "webpack-dev-server --history-api-fallback",
     "eslint": "eslint src/jsx/**/*.jsx",

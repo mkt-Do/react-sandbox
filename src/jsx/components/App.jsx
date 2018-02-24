@@ -2,7 +2,7 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 import Home from './Home';
-import Header from './Header';
+import Header from '../containers/Header';
 import Counter from '../containers/Counter';
 
 const App = () => (
